@@ -74,12 +74,21 @@ public class FiltrosEspaciales {
             for (int j = 0; j < bi.getHeight(); j++) {
                 Color color = new Color(bi.getRGB(i,j));
                 int prom = (color.getBlue() + color.getGreen() + color.getRed())/3;
-                if(prom>umbral) {
+                if(prom>umbral)
                     bi.setRGB(i,j,colorFondo.getRGB());
-                }
-                //bi.setRGB(i,j,color.getRGB());
-
-
+            }
+        }
+        return AbrirImagen.toImage(bi);
+    }
+    public static Image segmentarImagen(Image imagen,int u1, int u2){
+        BufferedImage bi = AbrirImagen.toBufferedImage(imagen);
+        Color colorFondo = new Color(255,255,255);
+        for (int i = 0; i < bi.getWidth(); i++) {
+            for (int j = 0; j < bi.getHeight(); j++) {
+                Color color = new Color(bi.getRGB(i,j));
+                int prom = (color.getBlue() + color.getGreen() + color.getRed())/3;
+                if(!(prom>= u1 && prom<=u2))
+                    bi.setRGB(i,j,colorFondo.getRGB());
             }
         }
         return AbrirImagen.toImage(bi);
