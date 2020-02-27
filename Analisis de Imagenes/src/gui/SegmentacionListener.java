@@ -3,23 +3,27 @@ package gui;
 import analisisespacial.FiltrosEspaciales;
 
 import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class SegmentacionListener implements ActionListener {
+public class SegmentacionListener implements ChangeListener {
+
+
     private JFrameSegmentacion frame;
 
-    public SegmentacionListener(JFrameSegmentacion frame) {
+    public SegmentacionListener (JFrameSegmentacion frame){
         this.frame = frame;
-    }
 
+    }
     @Override
-    public void actionPerformed(ActionEvent actionEvent) {
-        int u1 = frame.getSliderU1().getValue();
-        int u2 = frame.getSliderU2().getValue();
-        Image res = FiltrosEspaciales.segmentarImagen(frame.getImagenEscalada(),u1,u2);
-        this.frame.getLabelImagen().setIcon(new ImageIcon(res));
+    public void stateChanged(ChangeEvent changeEvent) {
+        int u1 = this.frame.getSliderU1().getValue();
+        int u2 = this.frame.getSliderU2().getValue();
+        Image res = FiltrosEspaciales.
+                segmentarImagen(this.frame.getImagenEscalada(), u1, u2);
+        this.frame. getLabelImagen().setIcon(new ImageIcon(res));
     }
-
 }

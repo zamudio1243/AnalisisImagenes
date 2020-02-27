@@ -60,4 +60,5 @@ public class Grafica {
         grafica = ChartFactory.createXYAreaChart(titulo, ejeX, ejeY, series);
     }
 
+
 }

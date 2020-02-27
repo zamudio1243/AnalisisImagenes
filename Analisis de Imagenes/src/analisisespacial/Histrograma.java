@@ -4,6 +4,7 @@ Hector febrero 2020
 */
 
 import open.AbrirImagen;
+import org.jfree.chart.JFreeChart;
 import org.jfree.chart.plot.XYPlot;
 
 import java.awt.*;
@@ -14,6 +15,7 @@ public class Histrograma {
     private double g[];
     private double b[];
     private double grises[];
+
 
     public double[] getR() {
         return r;
@@ -33,6 +35,7 @@ public class Histrograma {
         b = new double[256];
         grises = new double[256];
         calcularHistogramas(imagen);
+
     }
     private void calcularHistogramas(Image imagen){
         BufferedImage bImage = AbrirImagen.toBufferedImage(imagen);
@@ -60,6 +63,7 @@ public class Histrograma {
         plot.getRenderer().setSeriesPaint(1, new Color(Color.BLUE.getRGB()));
         plot.getRenderer().setSeriesPaint(2, new Color(Color.GREEN.getRGB()));
         aux.muestraGrafica();
+
     }
     public void GraphRed(){
         Grafica graph = new Grafica("Magnitud","Frecuencia","Histograma de imagen");
@@ -68,6 +72,7 @@ public class Histrograma {
         XYPlot plot = graph.getGrafica().getXYPlot();
         plot.getRenderer().setSeriesPaint(0, new Color(Color.RED.getRGB()));
         graph.muestraGrafica();
+
     }
     public void GraphBlue(){
         Grafica graph = new Grafica("Magnitud","Frecuencia","Histograma de imagen");
@@ -76,6 +81,7 @@ public class Histrograma {
         XYPlot plot = graph.getGrafica().getXYPlot();
         plot.getRenderer().setSeriesPaint(0, new Color(Color.BLUE.getRGB()));
         graph.muestraGrafica();
+
     }
     public void GraphGreen(){
         Grafica graph = new Grafica("Magnitud","Frecuencia","Histograma de imagen");
@@ -84,7 +90,11 @@ public class Histrograma {
         XYPlot plot = graph.getGrafica().getXYPlot();
         plot.getRenderer().setSeriesPaint(0, new Color(Color.GREEN.getRGB()));
         graph.muestraGrafica();
+
     }
+
+
+
 
 
 
