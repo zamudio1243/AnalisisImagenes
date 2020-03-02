@@ -8,7 +8,6 @@ import open.AbrirImagen;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 
-import static java.lang.Thread.sleep;
 
 public class FiltrosEspaciales {
     public static Image generarImagenGrises(Image imagen){
@@ -93,22 +92,6 @@ public class FiltrosEspaciales {
                 int prom = (color.getBlue() + color.getGreen() + color.getRed())/3;
                 if(!(prom>= u1 && prom<=u2))
                     bi.setRGB(i,j,colorFondo.getRGB());
-            }
-        }
-        return AbrirImagen.toImage(bi);
-    }
-
-    public static Image contrastarImagen(Image imagen,int max,int min){
-        BufferedImage bi = AbrirImagen.toBufferedImage(imagen);
-
-        for (int i = 0; i < bi.getWidth(); i++) {
-            for (int j = 0; j < bi.getHeight(); j++) {
-                Color color = new Color(bi.getRGB(i,j));
-                int promR  =FiltrosEspaciales.validadLimites((255/(max-min))*(color.getRed()-min));
-                int promG  =FiltrosEspaciales.validadLimites((255/(max-min))*(color.getGreen()-min));
-                int promB  =FiltrosEspaciales.validadLimites((255/(max-min))*(color.getBlue()-min));
-                color= new Color(promR,promG,promB);
-                bi.setRGB(i,j,color.getRGB());
             }
         }
         return AbrirImagen.toImage(bi);

@@ -1,108 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f61d64b-297d-46de-9d7c-d106dfb16590" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/imagenes/catrina.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/catrina2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/catrina3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/clara_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/clara_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/ester.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/ester2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/esther-exposito_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/28059383_1585550574853846_8932031365303451709_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/Darth-Vader_6bda9114.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/Dawkins_negativo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/Un-poco-de-contraste1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/backpack_guy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/backpack_guy2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/bodaloca2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/bolillos.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/cameraman.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/cartera.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/contrastes/cloe2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/contrastes/cloe3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/contrastes/iluminada.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/contrastes/mila_kunis.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/contrastes/mila_kunis2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/contrastes/obscura.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/contrastes/paisaje.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/contrastes/pocoContraste.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/contrastes/rostro.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/contrastes/rostro2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/entropia/50Shades.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/entropia/cloe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/entropia/cuadro gris.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/eyetrick_mini.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/ferarriPocoContraste.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/ferarriPocoContrasteObscura.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/figuras.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/formula1-ferrari.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/foto.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/hd/4kabove.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/hd/Nueva carpeta/4kabove.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/hd/Nueva carpeta/circulo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/hd/Nueva carpeta/filtro.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/hd/Nueva carpeta/fran.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/hd/Nueva carpeta/lena.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/hd/Nueva carpeta/lena.ppm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/hd/Nueva carpeta/leo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/hd/Nueva carpeta/leon2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/hd/Nueva carpeta/lineas.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/hd/Nueva carpeta/mujer2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/hd/Nueva carpeta/mujer513.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/hd/Nueva carpeta/roca.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/hd/Nueva carpeta/teclado.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/hd/leo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/hd/leoRuido.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/hd/leon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/hd/leon2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/hd/lineas.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/hd/roca.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/hd/roca2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/hd/roca3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/hd/ruido.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/hd/tec/leon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/hd/tec/objetos.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/hd/teclado.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/manzana.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/manzana2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/mascaras/dPx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/mascaras/dPy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/negativo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/negativo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/negativochica.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/niña.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/pepe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/pepe2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/perica.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/pexels-photo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/recuadro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/rome_most_beautiful_places-wallpaper-1366x768.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/rondana.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/rondana1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/sandia.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/taj.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/tajmajal.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/imagenes muestra/uruguay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/lenna_main.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/obscura_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/perr2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/rojas.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/ExpansionListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/JFrameExpansion.java" afterDir="false" />
+    <list default="true" id="7f61d64b-297d-46de-9d7c-d106dfb16590" name="Default Changelist" comment="Reportes">
+      <change afterPath="$PROJECT_DIR$/imagenes/medios.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expansiones/Expansion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/logo_gris_promedio.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/megaman-negativo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/catrina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/catrina2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/catrina3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/clara_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/ester2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/esther-exposito_1.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AnalisisImagenes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AnalisisImagenes/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AnalisisImagenes/analisisespacial/FiltrosEspaciales.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AnalisisImagenes/analisisespacial/FiltrosEspaciales.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AnalisisImagenes/analisisespacial/Histrograma.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AnalisisImagenes/analisisespacial/Histrograma.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/analisisespacial/FiltrosEspaciales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/analisisespacial/FiltrosEspaciales.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analisisespacial/Grafica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/analisisespacial/Grafica.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/analisisespacial/Histrograma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/analisisespacial/Histrograma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/JFrameSegmentacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/JFrameSegmentacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/SegmentacionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/SegmentacionListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/ExpansionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/ExpansionListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -216,6 +131,10 @@
       <workItem from="1582642015773" duration="11000" />
       <workItem from="1582658148075" duration="1736000" />
       <workItem from="1582727276133" duration="9000" />
+      <workItem from="1582826840010" duration="100000" />
+      <workItem from="1582830957063" duration="611000" />
+      <workItem from="1583006039953" duration="5000" />
+      <workItem from="1583106988743" duration="8823000" />
     </task>
     <task id="LOCAL-00001" summary="Agregar segmentacion">
       <created>1582001880246</created>
@@ -224,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582001880246</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Reportes">
+      <created>1582826890513</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582826890513</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,49 +172,77 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Agregar segmentacion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agregar segmentacion" />
+    <MESSAGE value="Reportes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reportes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="690" y="275" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1582507366709">
+    <state x="690" y="275" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1583112467096">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="275" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582507366709" />
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1582658601742">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="690" y="275" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583112467096" />
+    <state x="686" y="104" key="#com.intellij.ide.util.MemberChooser" timestamp="1583107639547">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1582658601742" />
-    <state x="460" y="114" key="CommitChangelistDialog2" timestamp="1582001879423">
+    <state x="686" y="104" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583107639547" />
+    <state x="460" y="114" key="CommitChangelistDialog2" timestamp="1583116236200">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="460" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582001879423" />
-    <state width="958" height="261" key="GridCell.Tab.0.bottom" timestamp="1582526239911">
+    <state x="327" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582831757875" />
+    <state x="460" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583116236200" />
+    <state width="958" height="165" key="GridCell.Tab.0.bottom" timestamp="1583116236251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1367" height="169" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582237068189" />
-    <state width="958" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582526239911" />
-    <state width="958" height="261" key="GridCell.Tab.0.center" timestamp="1582526239911">
+    <state width="958" height="165" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583116236251" />
+    <state width="958" height="165" key="GridCell.Tab.0.center" timestamp="1583116236251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1367" height="169" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582237068189" />
-    <state width="958" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582526239911" />
-    <state width="958" height="261" key="GridCell.Tab.0.left" timestamp="1582526239911">
+    <state width="958" height="165" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583116236251" />
+    <state width="958" height="165" key="GridCell.Tab.0.left" timestamp="1583116236250">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1367" height="169" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582237068189" />
-    <state width="958" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582526239911" />
-    <state width="958" height="261" key="GridCell.Tab.0.right" timestamp="1582526239911">
+    <state width="958" height="165" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583116236250" />
+    <state width="958" height="165" key="GridCell.Tab.0.right" timestamp="1583116236251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1367" height="169" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582237068189" />
-    <state width="958" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582526239911" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1582001884498">
+    <state width="958" height="165" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583116236251" />
+    <state width="1921" height="455" key="GridCell.Tab.1.bottom" timestamp="1583111783435">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582001884498" />
-    <state x="466" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1582727277621">
+    <state width="1921" height="455" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583111783435" />
+    <state width="1921" height="455" key="GridCell.Tab.1.center" timestamp="1583111783434">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="455" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583111783434" />
+    <state width="1921" height="455" key="GridCell.Tab.1.left" timestamp="1583111783434">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="455" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583111783434" />
+    <state width="1921" height="455" key="GridCell.Tab.1.right" timestamp="1583111783435">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="455" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583111783435" />
+    <state x="393" y="177" key="Vcs.Push.Dialog.v2" timestamp="1582826894732">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="466" y="241" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582727277621" />
-    <state x="655" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582519618641" />
+    <state x="393" y="177" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1582826894732" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582001884498" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1583110947707">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1583110947707" />
+    <state x="655" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1583107434459">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="466" y="241" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582831743105" />
+    <state x="655" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583107434459" />
+    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1583107668981">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583107668981" />
   </component>
 </project>

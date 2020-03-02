@@ -11,23 +11,10 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 
 public class Histrograma {
-    private double r[];
-    private double g[];
-    private double b[];
-    private double grises[];
-
-
-    public double[] getR() {
-        return r;
-    }
-
-    public double[] getG() {
-        return g;
-    }
-
-    public double[] getB() {
-        return b;
-    }
+    private double r[],g[],b[],grises[];
+    private int minR,maxR;
+    private int minG,maxG;
+    private int minB,maxB;
 
     public Histrograma(Image imagen){
         r = new double[256];
@@ -50,7 +37,51 @@ public class Histrograma {
                 grises[promedio]++;
             }
         }
+        calcularMinimosYMaximos();
     }
+
+    private void calcularMinimosYMaximos() {
+        this.minR = -1;
+        this.minG = -1;
+        this.minB = -1;
+        this.maxR = 256;
+        this.maxG = 256;
+        this.maxB = 256;
+
+
+
+        for(int t1 = 0, t2= r.length-1; minR==-1 || maxR==256 ;t1++,t2--){
+            if(r[t1]!=0 && minR ==-1){
+                minR = t1;
+            }
+            if(r[t2]!=0 && maxR==256){
+                maxR = t2;
+            }
+
+
+        }
+
+        for(int t1 = 0, t2= g.length-1; minG==-1 || maxG==256 ;t1++,t2--){
+            if(g[t1]!=0 && minG ==-1){
+                minG = t1;
+            }
+            if(g[t2]!=0 && maxG==256){
+                maxG = t2;
+            }
+
+        }
+
+        for(int t1 = 0, t2= b.length-1; minB==-1 || maxB==256 ;t1++,t2--){
+            if(b[t1]!=0 && minB ==-1){
+                minB = t1;
+            }
+            if(b[t2]!=0 && maxB==256){
+                maxB = t2;
+            }
+
+        }
+    }
+
     public void graficarHistogramas(){
         Grafica aux = new Grafica("Tono","Intesidad","Frecuencias");
         aux.agregarSerie(this.r,"rojo");
@@ -91,6 +122,46 @@ public class Histrograma {
         plot.getRenderer().setSeriesPaint(0, new Color(Color.GREEN.getRGB()));
         graph.muestraGrafica();
 
+    }
+
+    public double[] getGrises() {
+        return grises;
+    }
+
+    public int getMinR() {
+        return minR;
+    }
+
+    public int getMaxR() {
+        return maxR;
+    }
+
+    public int getMinG() {
+        return minG;
+    }
+
+    public int getMaxG() {
+        return maxG;
+    }
+
+    public int getMinB() {
+        return minB;
+    }
+
+    public int getMaxB() {
+        return maxB;
+    }
+
+    public double[] getR() {
+        return r;
+    }
+
+    public double[] getG() {
+        return g;
+    }
+
+    public double[] getB() {
+        return b;
     }
 
 

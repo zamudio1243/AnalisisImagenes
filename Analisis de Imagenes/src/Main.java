@@ -3,6 +3,7 @@ Hector enero 2020
 */
 import analisisespacial.FiltrosEspaciales;
 import analisisespacial.Histrograma;
+import expansiones.Expansion;
 import gui.JFrameExpansion;
 import gui.JFrameImage;
 import gui.JFrameSegmentacion;
@@ -15,8 +16,18 @@ public class Main {
 
     public static void main(String[] args) {
         Image imagen = AbrirImagen.openImage();
+        JFrameExpansion jFrameExpansion = new JFrameExpansion("expancion",imagen);
+        /*
         Histrograma h = new Histrograma(imagen);
-        Image umbral = FiltrosEspaciales.segmentarImagen(imagen,20,70);
-        JFrameImage jFrameImage = new JFrameImage(umbral);
+        h.graficarHistogramas();
+        JFrameImage imagenOriginal = new JFrameImage(imagen);
+
+        Image contraste = Expansion.expansionLogaritmica(imagen);
+        Histrograma hContraste = new Histrograma(contraste);
+        hContraste.graficarHistogramas();
+        JFrameImage imagenContradada = new JFrameImage(contraste);
+
+         */
+
     }
 }
