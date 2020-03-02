@@ -70,6 +70,29 @@ public class Expansion {
         }
         return AbrirImagen.toImage(buffer);
     }
+    public static Image expansionPropia(Image imagen) {
+        BufferedImage buffer = AbrirImagen.toBufferedImage(imagen);
+
+        for (int i = 0; i < buffer.getWidth(); i++) {
+            for (int j = 0; j < buffer.getHeight(); j++) {
+                Color color = new Color(buffer.getRGB(i, j));
+                //formula: 1 / (1 + e ^ -(color original))  funcion activacion
+                int r = color.getRed();
+                int g = color.getGreen();
+                int b = color.getBlue();
+                double auxR=  1/ (1 + Math.exp(-color.getRed()));
+                double auxG = 1/ (1 + Math.exp(-color.getGreen()));
+                double auxB = 1/ (1 + Math.exp(-color.getBlue()));
+                if(auxR < 1) r=0;
+                if(auxG < 1) g=0;
+                if(auxB < 1) b=0;
+                color = new Color(r,g,b);
+
+                buffer.setRGB(i, j, color.getRGB());
+            }
+        }
+        return AbrirImagen.toImage(buffer);
+    }
     public static Image expansionExponencial(Image imagen, double z) {
         BufferedImage buffer = AbrirImagen.toBufferedImage(imagen);
         for (int i = 0; i < buffer.getWidth(); i++) {

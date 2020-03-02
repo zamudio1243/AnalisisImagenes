@@ -16,18 +16,16 @@ public class Main {
 
     public static void main(String[] args) {
         Image imagen = AbrirImagen.openImage();
-        JFrameExpansion jFrameExpansion = new JFrameExpansion("expancion",imagen);
-        /*
         Histrograma h = new Histrograma(imagen);
         h.graficarHistogramas();
+
         JFrameImage imagenOriginal = new JFrameImage(imagen);
 
-        Image contraste = Expansion.expansionLogaritmica(imagen);
+        Image contraste = Expansion.expansionPropia(imagen);
         Histrograma hContraste = new Histrograma(contraste);
         hContraste.graficarHistogramas();
         JFrameImage imagenContradada = new JFrameImage(contraste);
 
-         */
 
     }
 }
