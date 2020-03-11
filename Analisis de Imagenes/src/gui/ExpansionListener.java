@@ -21,7 +21,7 @@ public class ExpansionListener implements ChangeListener {
     public void stateChanged(ChangeEvent changeEvent) {
         int u1 = this.frame.getSliderU1().getValue();
         int u2 = this.frame.getSliderU2().getValue();
-        Image res = Expansion.expansionLineal(u1, u2,this.frame.getImagenEscalada());
+        Image res = Expansion.expansionExponencial(this.frame.getImagenEscalada(),u1);
         this.frame. getLabelImagen().setIcon(new ImageIcon(res));
     }
 }

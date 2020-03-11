@@ -22,8 +22,7 @@ public class SegmentacionListener implements ChangeListener {
     public void stateChanged(ChangeEvent changeEvent) {
         int u1 = this.frame.getSliderU1().getValue();
         int u2 = this.frame.getSliderU2().getValue();
-        Image res = FiltrosEspaciales.
-                segmentarImagen(this.frame.getImagenEscalada(), u1, u2);
+        Image res = FiltrosEspaciales.binarizar(this.frame.getImagenEscalada(), u1,u2);
         this.frame. getLabelImagen().setIcon(new ImageIcon(res));
     }
 }
