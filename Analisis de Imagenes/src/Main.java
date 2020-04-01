@@ -4,6 +4,7 @@ Hector enero 2020
 
 import analisisespacial.Convolucion;
 
+import analisisespacial.Mascaras;
 import gui.JFrameImage;
 import open.AbrirImagen;
 import java.awt.Image;
@@ -15,13 +16,10 @@ public class Main {
         Image imagen = AbrirImagen.openImage();
         JFrameImage original = new JFrameImage(imagen);
 
-        int[][] mascara = new int[][]{
-                {-2,-1,0},
-                {-1,1,1},
-                {0,1,2}
-        };
-        Image enfoque = Convolucion.aplicarConvolucion(imagen,mascara,1,0);
-        JFrameImage s = new JFrameImage(enfoque);
+        Image GX = Convolucion.aplicarConvolucion(imagen, Mascaras.PrewittGX,1,0);
+        Image GY = Convolucion.aplicarConvolucion(imagen, Mascaras.PrewittGY,1,0);
+
+        JFrameImage s = new JFrameImage(GY);
 
 
 

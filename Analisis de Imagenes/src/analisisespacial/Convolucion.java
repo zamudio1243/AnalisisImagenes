@@ -22,7 +22,6 @@ public class Convolucion {
             }
         }
 
-
         return  AbrirImagen.toImage(bufferSuavizado);
     }
 
@@ -62,4 +61,5 @@ public class Convolucion {
         if(i>255) return 255;
         return i;
     }
+    
 }
