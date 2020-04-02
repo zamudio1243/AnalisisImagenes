@@ -3,6 +3,7 @@ package analisisespacial;
 Hector marzo 2020 
 */
 
+import gui.JFrameImage;
 import open.AbrirImagen;
 
 import java.awt.*;
@@ -30,13 +31,12 @@ public class Convolucion {
         //Recorrer la mascara
 
         Color color;
-        int auxRed=0,auxBlue=0,auxGreen=0,k=0;
+        int auxRed=0,auxBlue=0,auxGreen=0;
         for (int i = 0,r=x-1; i < mascara.length; i++,r++) {
             for (int j = 0,c=y-1; j < mascara[0].length; j++,c++) {
                 if (mascara[i][j] != 0){
                     try {
                         int rgb = bufferOriginal.getRGB(r,c);
-                        k++;
                         color = new Color(rgb);
                         auxRed+= color.getRed()*mascara[i][j];
                         auxBlue+= color.getBlue()*mascara[i][j];
@@ -56,10 +56,77 @@ public class Convolucion {
                           validadLimites(auxBlue+offset));
         return  color.getRGB();
     }
+
+    public static Image pewitt(Image imgOriginal){
+        Image GX = aplicarConvolucion(imgOriginal, Mascaras.PrewittGX,1,0);
+        Image GY = aplicarConvolucion(imgOriginal, Mascaras.PrewittGY,1,0);
+        BufferedImage bufferGX = AbrirImagen.toBufferedImage(GX);
+        BufferedImage bufferGY = AbrirImagen.toBufferedImage(GY);
+        int ancho = bufferGX.getWidth();
+        int alto = bufferGX.getHeight();
+        BufferedImage buffer = new BufferedImage(ancho,alto,BufferedImage.TYPE_INT_RGB);
+        //Recorrer el buffer
+        for (int i = 0; i < ancho; i++) {
+            for (int j = 0; j < alto; j++) {
+
+                buffer.setRGB(i,j,bufferGX.getRGB(i,j)+bufferGY.getRGB(i,j));
+            }
+        }
+        return  FiltrosEspaciales.binzarizacionAutomatica(AbrirImagen.toImage(buffer));
+    }
+    public static Image sobel(Image imgOriginal){
+        Image GX = aplicarConvolucion(imgOriginal, Mascaras.SobelGX,1,0);
+        Image GY = aplicarConvolucion(imgOriginal, Mascaras.SobelGY,1,0);
+        BufferedImage bufferGX = AbrirImagen.toBufferedImage(GX);
+        BufferedImage bufferGY = AbrirImagen.toBufferedImage(GY);
+        int ancho = bufferGX.getWidth();
+        int alto = bufferGX.getHeight();
+        BufferedImage buffer = new BufferedImage(ancho,alto,BufferedImage.TYPE_INT_RGB);
+        //Recorrer el buffer
+        for (int i = 0; i < ancho; i++) {
+            for (int j = 0; j < alto; j++) {
+                buffer.setRGB(i,j,bufferGX.getRGB(i,j)+bufferGY.getRGB(i,j));
+            }
+        }
+        return  AbrirImagen.toImage(buffer);
+    }
+
+    public static Image kirsch(Image imgOriginal){
+        Image GX = aplicarConvolucion(imgOriginal, Mascaras.KirschGX,1,0);
+        Image GY = aplicarConvolucion(imgOriginal, Mascaras.KirschGY,1,0);
+        BufferedImage bufferGX = AbrirImagen.toBufferedImage(GX);
+        BufferedImage bufferGY = AbrirImagen.toBufferedImage(GY);
+        int ancho = bufferGX.getWidth();
+        int alto = bufferGX.getHeight();
+        BufferedImage buffer = new BufferedImage(ancho,alto,BufferedImage.TYPE_INT_RGB);
+        //Recorrer el buffer
+        for (int i = 0; i < ancho; i++) {
+            for (int j = 0; j < alto; j++) {
+                buffer.setRGB(i,j,bufferGX.getRGB(i,j)+bufferGY.getRGB(i,j));
+            }
+        }
+        return  AbrirImagen.toImage(buffer);
+    }
+    public static Image roberts(Image imgOriginal){
+        Image GX = aplicarConvolucion(imgOriginal, Mascaras.RobertsGX,1,0);
+        Image GY = aplicarConvolucion(imgOriginal, Mascaras.RobertsGY,1,0);
+        BufferedImage bufferGX = AbrirImagen.toBufferedImage(GX);
+        BufferedImage bufferGY = AbrirImagen.toBufferedImage(GY);
+        int ancho = bufferGX.getWidth();
+        int alto = bufferGX.getHeight();
+        BufferedImage buffer = new BufferedImage(ancho,alto,BufferedImage.TYPE_INT_RGB);
+        //Recorrer el buffer
+        for (int i = 0; i < ancho; i++) {
+            for (int j = 0; j < alto; j++) {
+                buffer.setRGB(i,j,bufferGX.getRGB(i,j)+bufferGY.getRGB(i,j));
+            }
+        }
+        return  AbrirImagen.toImage(buffer);
+    }
+
     public static int validadLimites(int i){
         if(i<0)   return 0;
         if(i>255) return 255;
         return i;
     }
-    
 }

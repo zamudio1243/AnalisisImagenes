@@ -63,34 +63,7 @@ public  class Umbral {
             omega[i] = omega[i-1]+ h[i];
             mean[i] = mean[i-1] + (i*h[i]);
         }
-        /*
-        omega[255]= omega[254]+h[255];
-        mean[255]= mean[254]+ (255*h[255]);
-        System.out.println("omega[255]: "+omega[255]);
 
-        double sigmaB2 = 0;
-        double mt = mean[h.length-1]; // Valor de la intensidad media de la imagen
-        double sigmaB2max = 0;
-        double T = 0;
-        for (int i = 0; i < h.length; i++) {
-            double clase1= omega[i];
-            double clase2= 1-clase1;
-            if(clase1 != 0 && clase2 != 0){
-                double m1 = mean[i]/ clase1;
-                double m2 =  (mt -mean[i])/clase2;
-                sigmaB2 = (clase1*(m1-mt)*(m1-mt)) + (clase2*(m2-mt)*(m2-mt));
-               // System.out.println("B2: "+sigmaB2);
-                if (sigmaB2>sigmaB2max){
-                    sigmaB2max = sigmaB2;
-                    T= i;
-
-                }
-            }
-
-        }
-        return (int)T;
-
-         */
         return  mean;
     }
 }

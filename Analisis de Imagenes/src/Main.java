@@ -16,10 +16,9 @@ public class Main {
         Image imagen = AbrirImagen.openImage();
         JFrameImage original = new JFrameImage(imagen);
 
-        Image GX = Convolucion.aplicarConvolucion(imagen, Mascaras.PrewittGX,1,0);
-        Image GY = Convolucion.aplicarConvolucion(imagen, Mascaras.PrewittGY,1,0);
+        Image pewitt = Convolucion.pewitt(imagen);
 
-        JFrameImage s = new JFrameImage(GY);
+        JFrameImage imgPewiit = new JFrameImage(pewitt);
 
 
 
