@@ -121,6 +121,7 @@ public class Gestor {
     }
 
     private int obtenerColorRealDeFrecuencia(int ejeX, int ejeY, NumeroComplejo[][] transformada, HerramientasColor.CanalColor canal) {
+        System.out.println("ejeX: "+ejeX+" ejeY: "+ejeY);
         int color = (int) Math.abs(transformada[ejeX][ejeY].getParteReal());
         color = FiltrosEspaciales.validadLimites(color);
         color = HerramientasColor.obtenerRGBPorCanal(color, canal);
