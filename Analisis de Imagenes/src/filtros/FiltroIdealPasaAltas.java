@@ -7,13 +7,13 @@ import fft.NumeroComplejo;
 
 import java.awt.*;
 
-public class FiltroIdealPasaBajas extends FiltroFrecuencia{
+public class FiltroIdealPasaAltas extends FiltroFrecuencia {
 
     private int radio;
     private Dimension dim;
     private Image imagen;
 
-    public FiltroIdealPasaBajas(int radio, Dimension dim) {
+    public FiltroIdealPasaAltas(int radio, Dimension dim) {
         super((int)dim.getWidth(),(int) dim.getHeight());
         this.radio = radio;
         this.dim = dim;
@@ -31,7 +31,7 @@ public class FiltroIdealPasaBajas extends FiltroFrecuencia{
 
                 double r = Math.sqrt(Math.pow(u,2)+Math.pow(v, 2));
                 // verificamos con respecto al  radio
-                if(r<=this.radio){
+                if(r>=this.radio){
                     // asignamos el valor al filtro
                     getFiltroEspacial()[i][j] = new NumeroComplejo(1, 1);
                     // asignamos el valor a la imagen
@@ -57,6 +57,5 @@ public class FiltroIdealPasaBajas extends FiltroFrecuencia{
     public Image getImagen() {
         return imagen;
     }
-
 
 }
